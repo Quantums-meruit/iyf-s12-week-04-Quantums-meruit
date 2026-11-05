@@ -277,7 +277,7 @@
 
         // Print only even numbers 1-50
 let btns = document.querySelector("#plus1")
-let even = 0
-for (let i=0; i<=50; i%2===0){
-
+for (let i=0; i<=50; i+=2){
+    console.log(i)
+    btns.innerHTML= (i)
 }
