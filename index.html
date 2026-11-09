@@ -1,15 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Practice</title>
-</head>
-<body>
-    <h1>Check the console!</h1>
 
-    <button id="plus" onclick="click">increase by 1</button>
-    <button id="plus1" onclick="click">increase by 2</button>
-    <script src="main.js"></script>
+<head>
+    <!-- Define the character encoding to support standard text and symbols. -->
+    <meta charset="UTF-8">
+
+    <!-- Make the page responsive on phones, tablets and desktops. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Description displayed by search engines and other services. -->
+    <meta name="description" content="Week 04 JavaScript Fundamentals project for IYF Weekend Academy Season 12.">
+
+    <!-- Title displayed in the browser tab. -->
+    <title>Week 04 | JavaScript Fundamentals</title>
+</head>
+
+<body>
+
+    <!-- Main heading introducing the project. -->
+    <header>
+        <h1>JavaScript Fundamentals — Week 04</h1>
+        <p>IYF Weekend Academy | Season 12</p>
+    </header>
+
+    <main>
+
+        <!-- Explain what the project covers. -->
+        <section>
+            <h2>About This Project</h2>
+
+            <p>
+                This project demonstrates my understanding of JavaScript fundamentals,
+                including variables, data types, operators, functions, control flow,
+                arrays, objects and JSON.
+            </p>
+        </section>
+
+        <!-- List the major practical activities. -->
+        <section>
+            <h2>Project Activities</h2>
+
+            <ul>
+                <li>JavaScript fundamentals and operators</li>
+                <li>Functions and conditional statements</li>
+                <li>Loops and FizzBuzz</li>
+                <li>Calculator mini-project</li>
+                <li>Array and object manipulation</li>
+                <li>Student Grade Tracker</li>
+                <li>Five daily coding challenges</li>
+            </ul>
+        </section>
+
+        <!-- Explain how to view the JavaScript output. -->
+        <section>
+            <h2>How to Run</h2>
+
+            <ol>
+                <li>Open this project in your browser.</li>
+                <li>Open Developer Tools using F12.</li>
+                <li>Select the Console tab.</li>
+                <li>Explore the JavaScript output.</li>
+            </ol>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Joseph Kinyanjui | IYF Weekend Academy</p>
+    </footer>
+
+    <!-- Load the JavaScript file after the HTML has been parsed. -->
+    <script src="main.js" defer></script>
+    <!-- defer tells the browser to download the JavaScript file while parsing the HTML, but execute it after the HTML has been parsed.
+
+This helps avoid JavaScript running before the page structure is ready. -->
 </body>
+
 </html>

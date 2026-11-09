@@ -1,4 +1,15 @@
+# Dependencies
 node_modules/
-.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Log files
+*.log
+npm-debug.log*
+
+# Operating system files
 .DS_Store
 Thumbs.db
+desktop.ini
